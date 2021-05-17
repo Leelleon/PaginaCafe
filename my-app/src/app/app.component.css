@@ -1,0 +1,24 @@
+.methods {
+    display: flex;
+    flex-wrap: nowrap;
+    text-decoration: none;
+}
+
+.method {
+    flex-grow: 1;
+    height: 40vh;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    transition: transform .2s;
+}
+
+img:hover{
+    transform: scale(1.5);
+}
+
+
